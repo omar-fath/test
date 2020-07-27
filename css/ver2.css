@@ -1,0 +1,318 @@
+body {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: disc;
+}
+
+/* Home */
+#Home{
+  background-image: url("../images/home2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+
+h1{
+  padding: 3% 11%;
+  font-size: 4vw;
+}
+
+mark{
+  background-color: #FFCD40;
+  color: #fff;
+}
+
+.para-home{
+  padding: 3% 11%;
+  font-size: 2vw;
+}
+
+.container-fluid {
+  padding: 3% 0 7%;
+}
+
+/* Career Path Development */
+#Career-Path-Development {
+  background-image: url("../images/people.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 33vw;
+  color: #fffefe;
+}
+
+.teacher {
+  width: 29.65vw;
+  height: 22.33vw;
+  float: left;
+  margin: 5%;
+}
+
+h2 {
+  padding-top: 4.5%;
+  margin-bottom: 3%;
+}
+
+h3{
+  padding-top: 4%;
+  margin-bottom: 3%;
+
+}
+
+.career-para {
+  font-size: 1.5vw;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.list2 {
+  position: relative;
+  padding-left: 40vw;
+  padding-right: 1vw;
+  line-height: 2.5vw;
+}
+
+table{
+  border-bottom-right-radius: 33vw;
+  border-top-right-radius: 33vw;
+  width: 70%;
+  height: 10.25vw;
+  background-color:  #FFCD40;
+  font-size: 1.7vw;
+}
+
+tr{
+  padding-left: 2%;
+}
+
+th{
+
+}
+
+.io{
+float: left;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0.73vw;
+  background-color: #fff;
+  border-radius: 3.6603221083455346vw;
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+
+
+.nav-item {
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 1.3vw;
+  font-weight: bold;
+  padding: 0;
+}
+
+.navbar-nav {
+  padding-right: 6.5vw;
+  align-items: center;
+}
+
+.logo {
+  width: 11.420204978038067vw;
+  height: 5.34407027818448vw;
+}
+
+.nav-item:hover {
+  background-color: #FFCD40;
+}
+
+.navbar ul li {
+  border-right: 1px solid #000;
+}
+
+.navbar ul li:last-of-type {
+  border-right: none;
+}
+
+.yellow {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #FFCD40;
+  width: 8vw;
+  height: 7.55vw;
+  border-top-right-radius: 3.8vw;
+  border-bottom-right-radius: 3.8vw;
+}
+
+.CGC-PNG {
+  display: block;
+  position: absolute;
+  top: 1vw;
+  width: 8vw;
+  height: 5.856515373352855vw;
+}
+
+.red {
+  background-color: red;
+}
+
+@media (max-width:993px) {
+  .navbar ul li {
+    border-right: none;
+  }
+
+  .yellow {
+    display: none;
+  }
+}
+
+@media (max-width:1300px) {
+  .yellow {
+    border-bottom-right-radius: 3vw;
+    height: 7.6vw;
+  }
+}
+
+@media (max-width:1175px) {
+  .yellow {
+    height: 7.74vw;
+  }
+}
+
+/* Academic */
+.acad-para {
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+.students {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.acad-head{
+  padding-top: 0;
+}
+
+
+/* row */
+.two {
+  background-image: url("../images/gray.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 1% 0;
+  padding: 2%;
+}
+
+.two ul li {
+  font-weight: bold;
+}
+
+/* information */
+#Information {
+  background-image: url("../images/man32.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding: 5% 2% 2%;
+}
+
+.center2 {
+  text-align: center;
+}
+
+.colm {
+  border-radius: 1vw;
+  padding: 10px;
+  border: 0.8vw solid rgba(117, 116, 116, 0.3);
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* Firefox 4+, Opera, Chrome */
+  list-style-position: inside;
+}
+
+/* contact */
+#contact {
+  background-image: url("../images/milestones_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding: 2%;
+}
+
+.link4 {
+  display: block;
+  color: #fff;
+  padding-bottom: 1vw;
+}
+
+.partners {
+  border: 1px;
+  border-radius: 2vw;
+  width: 15.74vw;
+  height: 3.5vw;
+  background-color: #fff;
+  margin-bottom: 1vw;
+  padding: 0.5vw;
+}
+
+.partners-para {
+  float: left;
+  width: 5.2vw;
+  height: auto;
+}
+
+.pcp {
+  font-size: 0.8vw;
+  color: black;
+  padding-top: auto;
+}
+
+.pcp2 {
+  padding-top: 0.7vw;
+  padding-left: 0.2vw;
+  font-size: 0.8vw;
+  color: black;
+}
+
+.pcp3 {
+  font-size: 0.7vw;
+  color: black;
+}
+
+.ucam {
+  width: 6vw;
+  height: 3vw;
+  padding: 0;
+}
+
+.acquin {
+  width: 3vw;
+  height: 2.5vw;
+  padding-right: 1vw;
+}
+
+i{
+  color: #FFCD40;
+}
+
+.footer_logo{
+  padding-bottom: 3vw;
+}

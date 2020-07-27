@@ -1,0 +1,237 @@
+h2 {
+  font-family: "Montserrat";
+  margin: 2% 3% 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+
+
+#Home {
+  background-image: url("../images/w7n7rb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 0 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 80%;
+  margin: auto;
+  height: 84px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.brand {
+  width: 156px;
+  height: 73px;
+}
+
+.navbar ul li {
+  border-right: 1px solid #000;
+}
+
+.navbar ul li:last-of-type {
+  border-right: none;
+}
+
+.yellow {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #FFCD40;
+  width: 135px;
+  height: 84px;
+  border-top-right-radius: 42px;
+  border-bottom-right-radius: 42px;
+}
+
+.CGC-PNG {
+  display: block;
+  position: absolute;
+  top: 2px;
+  width: 130px;
+  height: 80px;
+}
+
+/* .vertical-menu {
+  width: 200px;
+  position: fixed;
+  right: 0px;
+
+ } */
+.vertical-menu a {
+  background-color: #eee;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+  /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+/* Line */
+hr {
+  display: inline-block;
+}
+
+.line {
+  text-align: left;
+  margin-right: 470px;
+}
+
+.gray {
+  width: 40px;
+  border: solid #9B9B9B 3px;
+}
+
+.yellow2 {
+  width: 200px;
+  border: solid #FFCD40 3px;
+  position: relative;
+  right: 5px;
+}
+
+/* Downloaded Buttons */
+.download {
+  margin: 5% 3% 5% 0;
+  border-radius: 25px;
+}
+
+/* Line */
+hr {
+  display: inline-block;
+}
+
+.line {
+  text-align: center;
+}
+
+.gray {
+  width: 40px;
+  border: solid gray 3px;
+}
+
+.yellow2 {
+  width: 200px;
+  border: solid yellow 3px;
+  position: relative;
+  right: 5px;
+}
+
+/* Academic-Differencer */
+.acad-para {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+.students {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Career Path Development */
+#Career-Path-Development {
+  background-image: url("../images/people.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 380px;
+  color: #fff;
+}
+
+.teacher {
+  width: 29%;
+  height: 44%;
+  float: left;
+  margin: 3%;
+  padding-right: 2%;
+}
+
+.career-head{
+  padding-top: 4.5%;
+  margin-bottom: 3%;
+}
+
+.career-para{
+  font-weight: 600;
+}
+
+#Career-Path-Development2{
+  background-image: url("../images/people.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 27.81844802342606vw;
+  color: #fffefe;
+
+}
+
+.teacher2{
+  width: 29.648609077598827vw;
+  height: 22.32796486090776vw;
+  float: left;
+  margin: 3%;
+}
+
+.career-head2{
+  padding-top: 4.5%;
+  margin-bottom: 3%;
+  font-size: 3vw;
+}
+
+.career-para2{
+  font-size: 1vw;
+  margin-bottom: 0;
+}
+
+.career-list{
+  margin-bottom: 0;
+}
+
+/* @media (max-width:991px) {
+  .yellow {
+    visibility: hidden;
+  }
+
+  #Career-Path-Development{
+    height: 58%;
+  } */
+}
